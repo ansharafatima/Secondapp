@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border"
+    tools:context=".MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/dessert9"
+        android:layout_width="97dp"
+        android:layout_height="99dp"
+        android:adjustViewBounds="false"
+        android:background="@drawable/roundcorner"
+        android:clipToOutline="true"
+        android:cropToPadding="false"
+        android:outlineProvider="background"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.254"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.269"
+        app:srcCompat="@drawable/brownie" />
+
+    <ImageButton
+        android:id="@+id/dessert1"
+        android:layout_width="97dp"
+        android:layout_height="99dp"
+        android:background="@drawable/roundcorner"
+        android:clipToOutline="true"
+        android:outlineProvider="background"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.296"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.576"
+        app:srcCompat="@drawable/cake" />
+
+    <ImageButton
+        android:id="@+id/dessert10"
+        android:layout_width="97dp"
+        android:layout_height="99dp"
+        android:adjustViewBounds="false"
+        android:background="@drawable/roundcorner"
+        android:clipToOutline="true"
+        android:cropToPadding="false"
+        android:outlineProvider="background"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.872"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.732"
+        app:srcCompat="@drawable/cinnamon" />
+
+    <ImageButton
+        android:id="@+id/dessert5"
+        android:layout_width="97dp"
+        android:layout_height="99dp"
+        android:adjustViewBounds="false"
+        android:background="@drawable/roundcorner"
+        android:clipToOutline="true"
+        android:outlineProvider="background"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.732"
+        app:srcCompat="@drawable/cookies" />
+
+    <ImageButton
+        android:id="@+id/dessert3"
+        android:layout_width="97dp"
+        android:layout_height="99dp"
+        android:adjustViewBounds="false"
+        android:background="@drawable/roundcorner"
+        android:clipToOutline="true"
+        android:outlineProvider="background"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.732"
+        app:srcCompat="@drawable/donut" />
+
+
+    <ImageButton
+        android:id="@+id/dessert8"
+        android:layout_width="97dp"
+        android:layout_height="99dp"
+        android:adjustViewBounds="false"
+        android:background="@drawable/roundcorner"
+        android:clipToOutline="true"
+        android:cropToPadding="false"
+        android:outlineProvider="background"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.269"
+        app:srcCompat="@drawable/pancake" />
+
+    <ImageButton
+        android:id="@+id/dessert6"
+        android:layout_width="97dp"
+        android:layout_height="99dp"
+        android:adjustViewBounds="false"
+        android:background="@drawable/roundcorner"
+        android:clipToOutline="true"
+        android:cropToPadding="false"
+        android:outlineProvider="background"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.431"
+        app:srcCompat="@drawable/pudding" />
+
+    <ImageButton
+        android:id="@+id/dessert2"
+        android:layout_width="97dp"
+        android:layout_height="99dp"
+        android:adjustViewBounds="false"
+        android:background="@drawable/roundcorner"
+        android:clipToOutline="true"
+        android:cropToPadding="false"
+        android:outlineProvider="background"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.431"
+        app:srcCompat="@drawable/pie" />
+
+    <ImageButton
+        android:id="@+id/dessert7"
+        android:layout_width="97dp"
+        android:layout_height="99dp"
+        android:adjustViewBounds="false"
+        android:background="@drawable/roundcorner"
+        android:clipToOutline="true"
+        android:cropToPadding="false"
+        android:outlineProvider="background"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.578"
+        app:srcCompat="@drawable/cheesecake" />
+
+    <ImageButton
+        android:id="@+id/dessert4"
+        android:layout_width="97dp"
+        android:layout_height="99dp"
+        android:adjustViewBounds="false"
+        android:background="@drawable/roundcorner"
+        android:clipToOutline="true"
+        android:cropToPadding="false"
+        android:outlineProvider="background"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.872"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.432"
+        app:srcCompat="@drawable/cupcake" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="334dp"
+        android:layout_height="122dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="708dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="16dp"
+        android:foregroundTint="#D9D0D0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/worder2" />
+
+    <Button
+        android:id="@+id/settingsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#03FFFFFF"
+        android:fontFamily="@font/dancing_script_semibold"
+        android:text="⚙ Settings"
+        android:textColor="#180101"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.899" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="405dp"
+        android:layout_height="154dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="676dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/worder" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="49dp"
+        android:fontFamily="@font/dancing_script_semibold"
+        android:text="Pick a Recipie"
+        android:textColor="#2E0101"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

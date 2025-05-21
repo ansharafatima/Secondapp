@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border"
+    tools:context=".Welcome">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="400dp"
+        android:layout_height="546dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="136dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/appDescription"
+            android:layout_width="323dp"
+            android:layout_height="240dp"
+
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/dancing_script_semibold"
+            android:text="Your happy place for all things sweet and delicious! From gooey brownies to fluffy pancakes,"
+            android:textAlignment="center"
+            android:textColor="#3E0404"
+            android:textSize="38sp"
+            tools:layout_editor_absoluteX="10dp"
+            tools:layout_editor_absoluteY="102dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="304dp"
+            android:layout_height="273dp"
+            android:fontFamily="@font/dancing_script_semibold"
+            android:text=" we've gathered the yummiest recipes just for you. Get ready to bake, taste, and fall in love with every bite! 🍯✨"
+            android:textAlignment="center"
+            android:textColor="#420303"
+            android:textSize="36sp"
+            tools:layout_editor_absoluteX="10dp"
+            tools:layout_editor_absoluteY="490dp" />
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="380dp"
+        android:layout_height="193dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="682dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/worder2" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="422dp"
+        android:layout_height="129dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="755dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/worder" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="278dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginBottom="788dp"
+        android:fontFamily="@font/dancing_script_semibold"
+        android:text="@string/sweet_recipies"
+        android:textAlignment="center"
+        android:textColor="#380101"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/letsGoButton"
+        android:layout_width="356dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="722dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="67dp"
+        android:backgroundTint="#00FFFFFF"
+        android:fontFamily="@font/dancing_script_semibold"
+        android:text="@string/lets_go"
+        android:textColor="#2C0101"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

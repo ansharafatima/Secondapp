@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border2">
+
+    <ImageView
+        android:id="@+id/welcomeImage"
+        android:layout_width="346dp"
+        android:layout_height="214dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="350dp"
+        android:contentDescription="Welcome Bear"
+        android:src="@drawable/egggif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/welcomeMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="189dp"
+        android:layout_marginEnd="137dp"
+        android:layout_marginBottom="605dp"
+        android:fontFamily="@font/dancing_script_semibold"
+        android:text="TextView"
+        android:textColor="#2C0101"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/welcomeOkButton"
+        android:layout_width="255dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="702dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/worder2"
+        android:fontFamily="@font/dancing_script_semibold"
+        android:text="Let's Go!"
+        android:textColor="#370101"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.61" />
+
+    <TextView
+        android:id="@+id/welcomeTitle"
+        android:layout_width="271dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="702dp"
+        android:background="@drawable/worder"
+        android:fontFamily="@font/dancing_script_semibold"
+        android:text="Welcome!"
+        android:textAlignment="center"
+        android:textColor="#3C0505"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="320dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="646dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="180dp"
+        android:fontFamily="@font/dancing_script_semibold"
+        android:text="Click on any image and it will take you to its recipie."
+        android:textColor="#260101"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

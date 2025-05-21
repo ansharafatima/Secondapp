@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="secondApp.Theme" parent="Theme.AppCompat.NoActionBar">
+        <item name="font">@font/dancing_script_semibold</item>
+    </style>
+</resources>

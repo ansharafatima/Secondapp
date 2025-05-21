@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="418dp"
+        android:layout_height="924dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="24dp"
+        tools:context=".LoginActivity"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="-8dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/dancing_script_semibold"
+            android:text="Create an Account with Us"
+            android:textAlignment="center"
+            android:textColor="#2E0202"
+            android:textSize="40sp" />
+
+        <EditText
+            android:id="@+id/usernameEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="109dp"
+            android:background="@drawable/worder"
+            android:fontFamily="@font/dancing_script_semibold"
+            android:padding="12dp"
+            android:text="Username"
+            android:textAlignment="center"
+            android:textColor="#230101"
+            android:textSize="34sp" />
+
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="112dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/worder"
+            android:fontFamily="@font/dancing_script_semibold"
+            android:padding="12dp"
+            android:text="Password"
+            android:textAlignment="center"
+            android:textColor="#230101"
+            android:textSize="34sp" />
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="348dp"
+            android:layout_height="113dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/worder2"
+            android:fontFamily="@font/dancing_script_semibold"
+            android:text="Login"
+            android:textColor="#230101"
+            android:textSize="34sp" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

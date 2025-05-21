@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/allison</item>
+        <item>@font/amatic_sc</item>
+        <item>@font/amita</item>
+        <item>@font/birthston_bounce_medium</item>
+        <item>@font/birthstone_bounce_medium</item>
+        <item>@font/bonbon</item>
+        <item>@font/dancing_script_semibold</item>
+    </array>
+</resources>
